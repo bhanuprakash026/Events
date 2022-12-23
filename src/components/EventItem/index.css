@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.list-item-container {
+  width: 45%;
+  margin: auto;
+  list-style: none;
+}
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 300px;
+}
+.btn {
+  background: transparent;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.event-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f8fafc;
+  font-weight: 400;
+}
+.event-location {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f8fafc;
+  font-weight: 400;
+}
+.active {
+  border: #2dd4bf 2px solid;
+}
